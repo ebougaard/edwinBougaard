@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:background-color="http://www.w3.org/1999/xhtml"
+      xmlns:color="http://www.w3.org/1999/xhtml">
+<head lang="en">
+
+</head>
+<body style="background-color:grey;">
+
+<div class="container">
+    <div th:fragment="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" th:href="@{/}">Home</a>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" th:href="@{/shortest}">Shortest Path</a></li>
+                        <li><a href="#" th:href="@{/vertices}">Planets</a></li>
+                        <li><a href="#" th:href="@{/edges}">Routes</a></li>
+                        <li><a href="#" th:href="@{/traffics}">Traffics</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron" style="background-color: #3c763d;">
+            <div class="row text-center" style="color: aliceblue;" >
+                <div class="">
+                    <h2>Path Calculator</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

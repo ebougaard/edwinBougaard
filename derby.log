@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Feb 17 15:10:28 CAT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0170-5345-808d-00000b96cf70 
+on database directory C:\IdeaProjects\bitbucket\edwinBougaard\PathCalculator with class loader java.net.URLClassLoader@6a4fab6e 
+Loaded from file:/C:/Users/ebougaard/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_161-b12
+user.dir=C:\IdeaProjects\bitbucket\edwinBougaard
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
